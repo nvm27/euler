@@ -8,6 +8,7 @@ mod largest_prime;
 mod palindrome;
 mod smallest_multiple;
 mod square_diff;
+mod nth_prime;
 
 fn main() {
     println!("Multiples of 3 and 5: {}", multiples::result(1_000));
@@ -16,4 +17,5 @@ fn main() {
     println!("Largest palindrome product: {}", palindrome::result(100, 1000));
     println!("Smallest multiple: {}", smallest_multiple::result(20));
     println!("Sum square difference: {}", square_diff::result(1, 101));
+    println!("10001st prime: {}", nth_prime::result(10_001));
 }
