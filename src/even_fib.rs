@@ -24,3 +24,8 @@ pub fn result(max: u64) -> u64 {
         .filter(|&x| x % 2 == 0)
         .fold(0, |sum, x| sum + x)
 }
+
+#[test]
+fn projecteuler() {
+    assert!(4_613_732 == result(4_000_000));
+}

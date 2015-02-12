@@ -12,3 +12,8 @@ pub fn result(max: u64) -> u64 {
         )
         .fold(1, |product, x| product * x)
 }
+
+#[test]
+fn projecteuler() {
+    assert!(232_792_560 == result(20));
+}

@@ -10,3 +10,8 @@ pub fn result(number: u64) -> u64 {
         .max()
         .unwrap()
 }
+
+#[test]
+fn projecteuler() {
+    assert!(6_857 == result(600_851_475_143));
+}

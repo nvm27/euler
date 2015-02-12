@@ -5,3 +5,8 @@ pub fn result(position: usize) -> u64 {
         .nth(position - 1)
         .unwrap()
 }
+
+#[test]
+fn projecteuler() {
+    assert!(104_743 == result(10_001));
+}

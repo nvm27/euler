@@ -8,3 +8,8 @@ pub fn result(begin: u64, end: u64) -> u64 {
         )
         .fold(0, |sum, x| sum + x) * 2
 }
+
+#[test]
+fn projecteuler() {
+    assert!(25_164_150 == result(1, 101));
+}
