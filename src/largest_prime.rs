@@ -1,3 +1,5 @@
+// Largest prime factor
+
 use primes::PrimeSet;
 use std::num::Float;
 

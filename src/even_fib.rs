@@ -1,3 +1,5 @@
+// Even Fibonacci numbers
+
 use std::num::Int;
 
 struct Fibonacci<T: Int> {

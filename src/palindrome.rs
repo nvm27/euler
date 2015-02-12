@@ -1,3 +1,5 @@
+// Largest palindrome product
+
 fn is_palindrome(number: u64) -> bool {
     let mut rev: u64 = 0;
     let mut temp: u64 = number;

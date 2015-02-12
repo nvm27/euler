@@ -1,3 +1,5 @@
+// Smallest multiple
+
 use primes::PrimeSet;
 use std::iter;
 

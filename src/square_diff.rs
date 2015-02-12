@@ -1,3 +1,5 @@
+// Sum square difference
+
 pub fn result(begin: u64, end: u64) -> u64 {
     (begin..(end - 1))
         .flat_map(

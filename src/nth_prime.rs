@@ -1,3 +1,5 @@
+// 10001st prime
+
 use primes::PrimeSet;
 
 pub fn result(position: usize) -> u64 {
