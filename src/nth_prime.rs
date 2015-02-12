@@ -10,5 +10,5 @@ pub fn result(position: usize) -> u64 {
 
 #[test]
 fn projecteuler() {
-    assert!(104_743 == result(10_001));
+    assert_eq!(104_743, result(10_001));
 }

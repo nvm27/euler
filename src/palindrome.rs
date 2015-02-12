@@ -28,5 +28,5 @@ pub fn result(begin: u64, end: u64) -> u64 {
 
 #[test]
 fn projecteuler() {
-    assert!(906_609 == result(100, 1000));
+    assert_eq!(906_609, result(100, 1000));
 }

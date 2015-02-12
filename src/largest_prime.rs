@@ -15,5 +15,5 @@ pub fn result(number: u64) -> u64 {
 
 #[test]
 fn projecteuler() {
-    assert!(6_857 == result(600_851_475_143));
+    assert_eq!(6_857, result(600_851_475_143));
 }

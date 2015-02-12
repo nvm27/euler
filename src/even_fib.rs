@@ -29,5 +29,5 @@ pub fn result(max: u64) -> u64 {
 
 #[test]
 fn projecteuler() {
-    assert!(4_613_732 == result(4_000_000));
+    assert_eq!(4_613_732, result(4_000_000));
 }
