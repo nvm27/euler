@@ -9,3 +9,4 @@ pub mod palindrome;
 pub mod smallest_multiple;
 pub mod square_diff;
 pub mod nth_prime;
+pub mod largest_product;
