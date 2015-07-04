@@ -1,5 +1,3 @@
-#![feature(core)]
-
 extern crate primes;
 
 pub mod multiples;

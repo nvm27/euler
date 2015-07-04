@@ -1,13 +1,14 @@
 // Even Fibonacci numbers
 
-use std::num::Int;
+use std::marker::Copy;
+use std::ops::Add;
 
-struct Fibonacci<T: Int> {
+struct Fibonacci<T: Add<Output=T> + Copy> {
     first: T,
     second: T,
 }
 
-impl<T: Int> Iterator for Fibonacci<T> {
+impl<T: Add<Output=T> + Copy> Iterator for Fibonacci<T> {
     type Item = T;
 
     fn next(&mut self) -> Option<T> {
